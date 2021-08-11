@@ -7,7 +7,7 @@ before_install:
 
 
 script:
-        - docker run soumaygupta/multicontainer-app-training npm test -- --coverage
+        - docker run -e CI=true soumaygupta/multicontainer-app-training npm test 
 
 after_success:
         - docker build -t soumay94/multicontainerclient-example ./client
