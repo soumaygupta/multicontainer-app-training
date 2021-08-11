@@ -13,7 +13,7 @@ after_success:
         - docker build -t soumay94/multicontainerclient-example ./client
         - docker build -t soumay94/multicontainernginx-example ./nginx
         - docker build -t soumay94/multicontainerserver-example ./server
-        - docker build -t soumay94/multicontianerworker-example ./worker
+        - docker build -t soumay94/multicontainerworker-example ./worker
 # Take these and push  images to docker hub.
 
 # Log in to Docker CLI so the images can be pushed to DockerHub
