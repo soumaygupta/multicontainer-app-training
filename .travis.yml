@@ -1,3 +1,4 @@
+#So images can be build properly
 sudo: required
 services:
         - docker

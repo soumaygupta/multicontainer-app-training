@@ -1,3 +1,4 @@
+#Called ny .travis-ci.yml and repo is created on dockerhub account
 version: '3'
 services:
   postgres:
